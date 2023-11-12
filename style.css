@@ -4,7 +4,7 @@
     --black: #000000;
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
+    --hospital-green: #BEADFA;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -25,6 +25,7 @@
 
   /*Navbar (general)*/
   nav {
+    
     display: flex;
     justify-content: space-between;
     padding: 0 24px;
@@ -35,7 +36,9 @@
     display: none;
   }
   .logo {
-    width: 100px;
+    width: 150px;
+    height: 50px;
+
   }
   .navbar-left ul,
   .navbar-right ul {
@@ -48,6 +51,7 @@
   }
   .navbar-left {
     display: flex;
+    align-items: center;
   }
   .navbar-left ul {
     margin-left: 12px;
@@ -194,17 +198,19 @@
     aside {
         background: var(--white);
         width: 360px;
-        /* padding: 0 24px; */
+        height: 100vh;
+        padding: 0 24px;
         box-sizing: border-box;
         position: absolute;
         right: 0;
       }
 
     /* ShoppingCart */
-    #shoppingCardContainer{
-      padding: 0 24px;
-    }
+    #shoppingCartContainer{
+      padding: 20px 24px;
+      height: 70%;
 
+    }
       .title-container {
         display: flex;
       }
@@ -247,12 +253,14 @@
       }
       .shopping-cart figure {
         margin: 0;
+        
       }
       .shopping-cart figure img {
         width: 70px;
         height: 70px;
         border-radius: 20px;
         object-fit: cover;
+        
       }
       .shopping-cart p:nth-child(2) {
         color: var(--very-light-pink);
@@ -280,8 +288,8 @@
         width: 14px;
         height: 14px;
         position: absolute;
-        top: 24px;
-        left: 24px;
+        top: 10px;
+        left: 34px;
         z-index: 2;
         padding: 12px;
         border-radius: 50%;
@@ -377,6 +385,9 @@
         width: 35px;
         height: 35px;
         margin: 0;
+        background-color: #BEADFA;
+        padding: 3px;
+        border-radius: 50%;
         
     }
 

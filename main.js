@@ -72,22 +72,67 @@ function closeProductDetailAside(){
 const productList = [];
 
 productList.push({
-    name: 'Bike',
-    price: 120,
-    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-});
-
-productList.push({
-    name: 'Scooter',
+    name: 'Motorbike',
     price: 130,
-    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 });
 
 productList.push({
-    name: 'Longboard',
-    price: 150,
-    image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 });
+
+productList.push({
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+});
+
+productList.push({
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+});
+
+productList.push({
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+});
+
+productList.push({
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+});
+
+productList.push({
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+});
+
+productList.push({
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+});
+
+productList.push({
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+});
+
+productList.push({
+    name: 'Motorbike',
+    price: 130,
+    image: 'https://plus.unsplash.com/premium_photo-1681488134408-d6eb570673af?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+});
+
+
+
 
 
 /*Crearemos esta estructura HTML con JS, para que cada vez que registremos un producto, se agregue automaticamente desde la base de datos y sea dinamico*/
